@@ -26,6 +26,7 @@ long seed = 0;
 ### Experimental Results
 y-axis is the fitness of the fittest genome in the pool.
 
+<img src="Assets/BestFitnessCrossover.png" alt="drawing" width="200"/>
 
 
 ### Example Output
