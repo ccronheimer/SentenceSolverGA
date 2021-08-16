@@ -5,6 +5,19 @@ The solution is the final permutation of the genome that shows the correct order
 #### Goal
 `Build a genetic algorithm that finds the fittest genome to solve the shredded documents original text.`
 
+### Procedure
+```
+Read problem instance data
+Set GA parameters
+Generate a random initial population of popSize
+
+For gen=1 to MAXGEN {
+Evaluate population fitness
+Send elites and tournament winner to mating pool and perform crossover and mutations
+}
+
+The chromosome with the best fitness from last generation is the solution
+```
 ### Parameters
 ```java
 //params to adjust the GA 
