@@ -9,12 +9,12 @@ The solution is the final permutation of the genome that shows the correct order
 ```java
 //params to adjust the GA 
 int populationSize = 0;
-        int maxGenerations = 0;
-        float crossOverRate = 0f;
-        float mutationRate = 0f;
-        float elitePer = 0f;
-        float tournamentSizePer = 0f;
-        long seed = 0;
+int maxGenerations = 0;
+float crossOverRate = 0f;
+float mutationRate = 0f;
+float elitePer = 0f;
+float tournamentSizePer = 0f;
+long seed = 0;
 ```
 ### Experimental Setup
 <strong>To reproduce similar results 👇</strong>
