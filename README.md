@@ -2,19 +2,19 @@
 A genetic algorithm that finds the solution of correct column ordering for a "shredded" text file.
 The solution is the final permutation of the genome that shows the correct order of columns to the original readable text.
 
-#### Goal 
+#### Goal
 `Build a genetic algorithm that finds the fittest genome to solve the shredded documents original text.`
 
 ### Parameters
 ```java
 //params to adjust the GA 
 int populationSize = 0;
-int maxGenerations = 0;
-float crossOverRate = 0f;
-float mutationRate = 0f;
-float elitePer = 0f;
-float tournamentSizePer = 0f;
-long seed = 0;
+        int maxGenerations = 0;
+        float crossOverRate = 0f;
+        float mutationRate = 0f;
+        float elitePer = 0f;
+        float tournamentSizePer = 0f;
+        long seed = 0;
 ```
 ### Experimental Setup
 <strong>To reproduce similar results 👇</strong>
@@ -26,14 +26,18 @@ long seed = 0;
 ### Experimental Results
 y-axis is the fitness of the fittest genome in the pool.
 x-axis is the number of generations.
- 
+
 `Best fitness out of the pool for different crossover rates.`
 
 <img src="Assets/BestFitnessCrossover.png" alt="crossover" width="400"/>
 
-`Best fitness out of the pool for different number of elites.`
+`Best fitness out of the pool for different elite rates.`
 
-<img src="Assets/BestFitnesElite.png" alt="elites" width="400"/>
+<img src="Assets/BestFitnessElite.png" alt="elites" width="400"/>
+
+`Best fitness out of the pool for different mutation rates.`
+
+<img src="Assets/BestFitnessMutation.png" alt="mutation" width="400"/>
 
 ### Example Output
 ```
