@@ -24,8 +24,10 @@ long seed = 0;
 <li>The fitness of the correct solution for document 3 is 743.
 
 ### Experimental Results
-y-axis is the fitness of the fittest genome in the pool.
-x-axis is the number of generations.
+<li>y-axis is the fitness of the fittest genome in the pool.
+<li>x-axis is the number of generations.
+
+<strong>We want to see convergence at 743 early.</strong>
 
 `Best fitness out of the pool for different crossover rates.`
 
