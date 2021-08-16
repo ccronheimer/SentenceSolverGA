@@ -1,6 +1,8 @@
 # Genetic Algorithm
 A genetic algorithm that finds the solution of correct column ordering for a "shredded" text file.
 The solution is the final permutation of the genome that shows the correct order of columns to the original readable text.
+Each column is numbered 1-15 and the solution will be the correct order of columns that is readable.
+
 
 #### Goal
 `Build a genetic algorithm that finds the fittest genome to solve the shredded documents original text.`
