@@ -25,9 +25,15 @@ long seed = 0;
 
 ### Experimental Results
 y-axis is the fitness of the fittest genome in the pool.
+x-axis is the number of generations.
+ 
+`Best fitness out of the pool for different crossover rates.`
 
-<img src="Assets/BestFitnessCrossover.png" alt="drawing" width="200"/>
+<img src="Assets/BestFitnessCrossover.png" alt="crossover" width="400"/>
 
+`Best fitness out of the pool for different number of elites.`
+
+<img src="Assets/BestFitnesElite.png" alt="elites" width="400"/>
 
 ### Example Output
 ```
